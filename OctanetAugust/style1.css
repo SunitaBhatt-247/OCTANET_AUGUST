@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6e3;
+    color: #5f4b32;
+    text-align: center;
+}
+
+header {
+    background-color: #dcb58b;
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.hero {
+    margin: 20px 0;
+}
+
+.hero-image {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about, .menu, .special-discount, .pre-booking {
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #dcb58b;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.about p, .menu p, .special-discount p, .pre-booking p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    margin: 15px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.special-discount {
+    background-color: #f9e4d1;
+    color: #5f4b32;
+}
+
+.special-discount p {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.pre-booking form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 1.1em;
+    color: #5f4b32;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #dcb58b;
+    width: 80%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #dcb58b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b8926f;
+}
+
+footer {
+    background-color: #dcb58b;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
